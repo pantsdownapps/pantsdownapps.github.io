@@ -1,0 +1,92 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+    font-family: 'Raleway';
+    font-size: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #FFFFFF;
+  transition: color 0.5s;
+}
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  color: #FF0000;
+  transition: color 0.5s;
+}
+
+header {
+    background-color: #FF370D;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+div#body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+div#phone img {
+    margin: 0 auto;
+}
+
+div#download-icons img {
+    margin: 0 auto 20px auto;
+}
+
+div#bounties {
+    background-color: #FF7700;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer div {
+    font-size: 2em;
+}
+
+div#faces {
+    text-align: center;
+}
+
+div.face {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    display: inline-block;
+}
+
+div.pad {
+    padding: 20px;
+}
+

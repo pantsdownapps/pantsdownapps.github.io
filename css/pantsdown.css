@@ -1,0 +1,35 @@
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+    font-family: 'Raleway';
+    font-size: 100px;
+}
+
+div#main {
+    width: 100%;
+    text-align: center;
+}
+
+div#main img#logo {
+    margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  transition: color 0.5s;
+}
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  color: #FF0000;
+  transition: color 0.5s;
+}
+
+h1 {
+    margin: 0.1em 0;
+}
+
+p {
+    margin: 0.1em 0;
+}
