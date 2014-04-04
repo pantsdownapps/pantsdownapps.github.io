@@ -13,6 +13,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     margin: 0;
     text-transform: uppercase;
+}
+
+h1, h3, h4, h5, h6 {
     font-weight: 900;
 }
 
@@ -39,12 +42,38 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    font-size: 0.7em;
+    background-color: #FF7700;
+    padding: 5px 0;
+}
+
+h2 img {
+    vertical-align: middle;
+}
+
 ul {
     margin: 0;
     list-style-type: none;
     padding: 0;
     text-align: center;
 }
+
+div#triangle {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 106px 106px 0 0;
+    border-color: #FFFFFF transparent transparent transparent;
+}
+
+div#pantsdown {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
 
 div#body {
     background-color: #000000;
@@ -86,7 +115,23 @@ div.face {
     display: inline-block;
 }
 
-div.pad {
+.pad {
     padding: 20px;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.small {
+    font-size: 0.8em;
 }
 
